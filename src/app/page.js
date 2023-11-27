@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import MovingText from "./components/MovingText";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Skill from "./components/Skill";
 
   const montSerrat = Montserrat({
     weight: ["400", "300"],
@@ -29,6 +30,8 @@ export default function Home() {
       <About/>
       <MovingText text1="RUSHIKESH" text3="PORTFOLIO"/>
       <Project/> 
+      <Rotation/>
+      <Skill/>
       <Rotation/>
       <Contact/>
       <MovingText text3="FEEL FREE TO CONTACT ME✦"/>

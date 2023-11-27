@@ -35,7 +35,7 @@ const Mouse = () => {
   return (
     <>
       <motion.div
-        className="cursor"
+        className="cursor "
         variants={variants}
         animate={"default"}
       ></motion.div>
