@@ -2,26 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    /* cursor: none; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+html{
+    background-color: #1f2125;
+    color: #e9dfce;
+}
+.cursor{
+    width: 11px;
+    height: 11px;
+    color: var(--white);
+    cursor: none;
+    mix-blend-mode: exclusion;
+    background-color: rgba(80, 28, 28, 0.7);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    line-height: 13;
+    pointer-events: none;
   }
+  .lightmode{
+    background-color: #e9dfce;
+    color: #1f2125;
+  }
+  .header{
+    cursor: none;
+  }
+.project-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.75rem;
+  flex-direction: column-reverse;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.project-image{
+  width: 60%;
+  border-radius: 1.5rem;
+}
+.project-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.project-description{
+  font-size: 0.75rem;
+  line-height: 1rem ;
+  align-items: center; 
+  display: flex;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem
 }
