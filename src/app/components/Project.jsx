@@ -31,7 +31,7 @@ const Project = () => {
         </h1>
       </div>
       <div className="flex flex-col cursor-auto">
-      <motion.div
+        <motion.div
           id="SeniorSphere"
           className="project-container md:flex-row hover:gap-0"
           whileHover={{ scale: 1.1 }}
@@ -40,7 +40,6 @@ const Project = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-         
           {showSeniorProjectInfo && (
             <motion.div
               initial={{ opacity: 0, y: 300 }}
@@ -49,18 +48,31 @@ const Project = () => {
               className="project-text md:w-1/4"
             >
               <div className="flex-col">
-              <h3 className="project-description md:text-lg md:mx-0">
-                Senior Sphere: HackTech Hackathon project
-              </h3>
-              <div id="buttons" className="md:mt-2 mt-5">
-              <Link href="https://senior-sphere.vercel.app/"><motion.button className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
-              whileHover={{ scale: 1.1 }}>PROJECT</motion.button></Link>
-              <Link href="https://github.com/Rushikesh-24/SeniorSphere"><motion.button className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
-              whileHover={{ scale: 1.1 }}>GITHUB REPO</motion.button></Link></div>
+                <h3 className="project-description md:text-lg md:mx-0 mt-4">
+                  Senior Sphere: HackTech Hackathon project
+                </h3>
+                <div id="buttons" className="md:mt-2 mt-5">
+                  <Link href="https://senior-sphere.vercel.app/">
+                    <motion.button
+                      className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
+                      whileHover={{ scale: 1.1 }}
+                    >
+                      PROJECT
+                    </motion.button>
+                  </Link>
+                  <Link href="https://github.com/Rushikesh-24/SeniorSphere">
+                    <motion.button
+                      className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
+                      whileHover={{ scale: 1.1 }}
+                    >
+                      GITHUB REPO
+                    </motion.button>
+                  </Link>
+                </div>
               </div>
             </motion.div>
           )}
-           <img
+          <img
             src="/SeniorProject.png"
             alt=""
             className="project-image"
@@ -84,14 +96,28 @@ const Project = () => {
               className="project-text md:w-1/4"
             >
               <div className="flex-col">
-              <h3 className="project-description md:text-lg md:mx-0">
-                Utopia Store: Engaging E-commerce Powered by Next.js & React
-              </h3>
-              <div id="buttons" className="md:mt-2 mt-5">
-              <Link href="https://utopia-store.vercel.app/"><motion.button className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
-              whileHover={{ scale: 1.1 }}>PROJECT</motion.button></Link>
-              <Link href="https://github.com/Rushikesh-24/utopia-store"><motion.button className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
-              whileHover={{ scale: 1.1 }}>GITHUB REPO</motion.button></Link></div></div>
+                <h3 className="project-description md:text-lg md:mx-0 mt-4">
+                  Utopia Store: Engaging E-commerce Powered by Next.js & React
+                </h3>
+                <div id="buttons" className="md:mt-2 mt-5">
+                  <Link href="https://utopia-store.vercel.app/">
+                    <motion.button
+                      className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
+                      whileHover={{ scale: 1.1 }}
+                    >
+                      PROJECT
+                    </motion.button>
+                  </Link>
+                  <Link href="https://github.com/Rushikesh-24/utopia-store">
+                    <motion.button
+                      className="border-white bg-white text-black border rounded-2xl md:h-10 md:w-32 hover:bg-transparent hover:text-white text-xs mx-2 h-7 w-24"
+                      whileHover={{ scale: 1.1 }}
+                    >
+                      GITHUB REPO
+                    </motion.button>
+                  </Link>
+                </div>
+              </div>
             </motion.div>
           )}
           <img

@@ -7,7 +7,7 @@ const Mouse = () => {
     x: 0,
     y: 0,
   });
-  
+
   useEffect(() => {
     const mouseMove = (e) => {
       setmousePosition({
@@ -31,7 +31,7 @@ const Mouse = () => {
       x: mousePosition.x - 75,
       y: mousePosition.y - 75,
     },
-  }; 
+  };
   return (
     <>
       <motion.div
