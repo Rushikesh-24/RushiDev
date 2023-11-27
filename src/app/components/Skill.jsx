@@ -21,7 +21,7 @@ const Skill = () => {
     <div className='flex justify-center items-center' id='skills'><h2 className={`${playFair.className} md:text-9xl text-5xl mb-20`}>
           Skills
         </h2></div>
-    <div className='flex justify-center items-center gap-10'>
+    <div className='flex justify-center items-center md:gap-10 flex-wrap gap-4 mb-10'>
     <motion.div whileHover={{ scale: 1.3, opacity: 0.8 }} transition={{delay:0.2}}><FaReact size={40}/></motion.div>
     <motion.div whileHover={{ scale: 1.3, opacity: 0.8 }} transition={{delay:0.2}}><FaHtml5 size={40}/></motion.div>
     <motion.div whileHover={{ scale: 1.3, opacity: 0.8 }} transition={{delay:0.2}}><FaCss3 size={40}/></motion.div>

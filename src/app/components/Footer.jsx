@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="flex gap-14 mx-10 justify-center items-center">
+      <div className="flex md:gap-14 mx-10 justify-center items-center flex-wrap gap-5">
         <Link href="https://discord.gg/2ezUbP2c">
           <FaDiscord size={40} />
         </Link>
