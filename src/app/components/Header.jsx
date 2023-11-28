@@ -20,6 +20,7 @@ const Header = () => {
 
   const handleClick = () => {
     setIsOpen(!isOpen);
+    
   };
 
   return (

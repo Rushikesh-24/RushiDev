@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { motion } from "framer-motion";
 import { Montserrat, Dancing_Script } from "next/font/google";
@@ -7,13 +8,13 @@ const playFair = Dancing_Script({
   display: "swap",
 });
 const montSerrat = Montserrat({
-  weight: ["400", "300"],
+  weight: "400",
   subsets: ["latin"],
   display: "swap",
 });
 const Hero = () => {
   return (
-    <div className=" z-10 text-center flex-col justify-start items-center p-10 flex relative overflow-hidden ">
+    <div className="z-10 text-center flex-col justify-start items-center p-10 flex relative overflow-hidden">
       <div
         id="hero-title"
         className=" flex flex-col justify-center items-center mt-5 mb-5 relative"
