@@ -26,9 +26,14 @@ const Project = () => {
   return (
     <div id="project">
       <div className="flex justify-center items-center mt-10">
-        <h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}>
-          My Projects
-        </h1>
+      <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
+      whileInView={{scale:1,rotate:0}}
+      initial={{scale:0,rotate:180}}
+      transition={{delay:0.3,ease:'easeInOut'}}
+      
+      >
+        My Projects
+      </motion.h1>
       </div>
       <div className="flex flex-col cursor-auto">
         <motion.div

@@ -10,16 +10,17 @@ const Loader = () => {
 
   const loaderContainerStyle = {
     position: 'fixed',
-    bottom: animate ? '100%' : '0', 
+    bottom: animate ? '120vh' : '0', 
     left: '0',
-    transition: 'bottom 1s ease-in-out',
+    transition: 'bottom 1.5s ease-in-out',
     textAlign: 'center',
     zIndex:"999",
     width: '100%',
+    height:'120vh'
   };
    const container={
     width: '100vw',
-    height: '100vh',
+    height: '100%',
     backgroundColor: '#f5efe5',
     display: 'flex',
     flexDirection: 'column',
@@ -30,7 +31,7 @@ const Loader = () => {
   return (
     <>
     <div style={loaderContainerStyle}>
-      <div style={container}><img src="/logoB.svg" alt="logo" className='mb-5 w-40'/></div>
+      <div style={container}><img src="/logoB.svg" alt="logo" className='w-40'/></div>
       <img src="/bottom.svg" alt="" className=''/>
     </div>
     </>

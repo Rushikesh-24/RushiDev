@@ -17,9 +17,14 @@ const Contact = () => {
   return (
     <>
       <div id="contact" className="text-center p-2">
-        <h2 className={`${playFair.className} md:text-9xl text-5xl mb-20`}>
-          Contact
-        </h2>
+      <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
+      whileInView={{scale:1,rotate:0}}
+      initial={{scale:0,rotate:180}}
+      transition={{delay:0.3,ease:'easeInOut'}}
+      
+      >
+        Contact
+      </motion.h1>
         <p>Have questions or feedback? Get in touch with me!</p>
         <form
           action="https://formspree.io/f/mrgwwqre"

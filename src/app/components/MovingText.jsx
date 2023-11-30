@@ -72,7 +72,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
 
 const MovingText = (props) => {
   return (
-    <section className="md:mb-28 mb-10 md:mt-40 mt-10">
+    <section className="md:mb-72 mb-10 md:mt-40 mt-10">
       <ParallaxText baseVelocity={10}>{props.text1}</ParallaxText>
       <ParallaxText baseVelocity={5}>{props.text2}</ParallaxText>
       <ParallaxText baseVelocity={-10}>{props.text3}</ParallaxText>
