@@ -16,7 +16,7 @@ const About = () => {
 
   return (
     <div
-      className="md:mt-40 flex justify-center items-center md:mb-96 flex-col mt-10 mb-10"
+      className=" flex justify-center items-center md:mb-96 flex-col mt-10 mb-10 h-screen"
       id="about"
     >
       <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}

@@ -14,7 +14,7 @@ const montSerrat = Montserrat({
 });
 const Hero = () => {
   return (
-    <div className="z-10 text-center flex-col justify-start items-center p-10 flex relative overflow-hidden">
+    <div className="z-10 text-center flex-col md:justify-start items-center p-10 flex relative overflow-hidden justify-center h-screen mb-10">
       <div
         id="hero-title"
         className=" flex flex-col justify-center items-center mt-5 mb-5 relative"
