@@ -29,7 +29,7 @@ const Project = () => {
       <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
       whileInView={{scale:1,rotate:0}}
       initial={{scale:0,rotate:180}}
-      transition={{delay:0.3,ease:'easeInOut'}}
+      transition={{delay:0.3,ease:'easeInOut',duration:1}}
       
       >
         My Projects
@@ -77,18 +77,21 @@ const Project = () => {
               </div>
             </motion.div>
           )}
-          <img
+          <motion.img
             src="/SeniorProject.png"
             alt=""
             className="project-image"
             onClick={toggleSeniorProjectInfo}
+            initial={{x:-100}}
+            whileInView={{x:0}}
+            transition={{duration:1}}
           />
         </motion.div>
         <motion.div
           id="utopiaStore"
           className="project-container md:flex-row-reverse hover:gap-0 mt-10"
           whileHover={{ scale: 1.1 }}
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.3,duration:1 }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -125,11 +128,14 @@ const Project = () => {
               </div>
             </motion.div>
           )}
-          <img
+          <motion.img
             src="/utopiaProject.png"
             alt=""
             className="project-image"
             onClick={toggleUtopiaProjectInfo}
+            initial={{x:100}}
+            whileInView={{x:0}}
+            transition={{duration:1}}
           />
         </motion.div>
       </div>

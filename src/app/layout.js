@@ -2,7 +2,7 @@ import Header from './components/Header'
 import './globals.css'
 import Mouse from './components/Mouse'
 import React from 'react'
-import Loader from './components/Loader'
+import Load from './components/Load'
 
 export const metadata = {
   title: 'Rushikesh Gaonkar',
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   <>
     <html lang="en">
       <body>
-        <Loader/>
+        <Load/>
         <Mouse/>
         <Header/>
         {children }

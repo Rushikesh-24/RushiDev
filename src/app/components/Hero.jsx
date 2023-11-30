@@ -25,7 +25,7 @@ const Hero = () => {
           <motion.p
             initial={{ opacity: 0, y: 300 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
           >
             FRONTEND DEVELOPER
           </motion.p>
@@ -34,7 +34,7 @@ const Hero = () => {
           className={`z-10 items-center font-normal md:text-9xl text-4xl mb-5 ${montSerrat.className}`}
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 1.8 }}
         >
           ENGINEERING
         </motion.div>
@@ -42,7 +42,7 @@ const Hero = () => {
           className={`z-10 items-center font-normal md:text-9xl text-4xl mb-5 ${montSerrat.className}`}
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          transition={{ duration: 0.5, delay: 2 }}
         >
           ELEGANCE
         </motion.div>
@@ -50,7 +50,7 @@ const Hero = () => {
           className={`z-10 items-center font-extralight md:text-4xl text-xl ${playFair.className}`}
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 2.2 }}
         >
           designing
         </motion.div>
@@ -58,7 +58,7 @@ const Hero = () => {
           className={`z-10 items-center font-thin md:text-4xl text-xl ${playFair.className}`}
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 2.4 }}
         >
           unforgettable digital journeys
         </motion.div>

@@ -22,7 +22,7 @@ const Skill = () => {
       <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
       whileInView={{scale:1,rotate:0}}
       initial={{scale:0,rotate:180}}
-      transition={{delay:0.3,ease:'easeInOut'}}
+      transition={{delay:0.3,ease:'easeInOut',duration:1}}
       
       >
         Skills
