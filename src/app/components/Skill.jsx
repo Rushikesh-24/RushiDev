@@ -31,49 +31,65 @@ const Skill = () => {
       <div className="flex justify-center items-center md:gap-10 flex-wrap gap-4 mb-10">
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <FaReact size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <FaHtml5 size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <FaCss3 size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2}}
+          transition={{ delay: 0.2,duration:0.5}}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <IoLogoJavascript size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <SiTailwindcss size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <TbBrandNextjs size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <TbBrandCpp size={40} />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2,duration:0.5 }}
+          whileInView={{y:0,opacity:1}}
+          initial={{y:100,opacity:0}}
         >
           <SiFramer size={30} />
         </motion.div>

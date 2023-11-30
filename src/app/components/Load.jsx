@@ -16,7 +16,7 @@ const Load = () => {
     }}
     initial={{y:0,display:'flex'}}
     animate={{y:'-100vh'}}
-    transition={{duration:10.5,delay:0.2,ease:'easeInOut'}}
+    transition={{duration:1.5,delay:0.2,ease:'easeInOut'}}
     exit={{display:'none',opacity:'0'}}
     >
         <img src="/logoB.svg" alt="" className='w-40 mb-20'/>
