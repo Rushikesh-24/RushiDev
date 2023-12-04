@@ -17,7 +17,7 @@ const Hero = () => {
     <div className="z-10 text-center flex-col md:justify-start items-center p-10 flex relative overflow-hidden justify-center h-screen mb-10">
       <div
         id="hero-title"
-        className=" flex flex-col justify-center items-center mt-5 mb-5 relative"
+        className=" flex flex-col justify-center items-center md:mt-5 mb-5 relative -mt-80"
       >
         <div
           className={`overflow-hidden relative md:text-sm text-xs md:mb-2 mb-5 ${montSerrat.className}`}
