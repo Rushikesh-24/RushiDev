@@ -40,7 +40,7 @@ const Project = () => {
           id="SeniorSphere"
           className="project-container md:flex-row hover:gap-0"
           whileHover={{ scale: 1.1 }}
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.3,duration:0.5 }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -91,7 +91,7 @@ const Project = () => {
           id="utopiaStore"
           className="project-container md:flex-row-reverse hover:gap-0 mt-10"
           whileHover={{ scale: 1.1 }}
-          transition={{ delay: 0.3,duration:1 }}
+          transition={{ delay: 0.3,duration:0.5 }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
