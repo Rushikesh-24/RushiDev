@@ -27,10 +27,17 @@ const Header = () => {
     <header className="sticky top-5 z-50">
     <div className="flex relative justify-between w-auto items-center m-5 right-0 top-0">
       <Link href="/">
-        <img src="/logo.svg" alt="" className="lg:w-24 w-14" />
+        <motion.img
+         initial={{ opacity: 0, x: -50 }}
+         animate={{ opacity: 1, x: 0 }}
+         transition={{ duration: 0.5, delay: 1.6 }}
+        src="/logo.svg" alt="" className="lg:w-24 w-14" />
       </Link>
       <div className="relative">
-        <button
+        <motion.button
+         initial={{ opacity: 0, x: 50 }}
+         animate={{ opacity: 1, x: 0 }}
+         transition={{ duration: 0.5, delay: 1.6 }}
           onClick={handleClick}
           className="relative flex-col justify-center items-center mr-3 z-50"
         >
@@ -56,7 +63,7 @@ const Header = () => {
                           : "translate-y-0.5"
                       }`}
           ></span>
-        </button>
+        </motion.button>
         <AnimatePresence>
           {isOpen && (
             <motion.div
