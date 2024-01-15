@@ -24,8 +24,8 @@ const Project = () => {
     setShowUtopiaProjectInfo(!showUtopiaProjectInfo);
   };
   return (
-    <div id="project">
-      <div className="flex justify-center items-center mt-10">
+    <div id="project" className="mb-40 md:mb-0">
+      <div className="flex justify-center items-center md:mt-10 mt-48">
       <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
       whileInView={{scale:1,rotate:0}}
       initial={{scale:0,rotate:180}}

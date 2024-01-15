@@ -73,11 +73,11 @@ const Header = () => {
               transition={{ duration: 0.5 }}
               className="fixed inset-0 lightmode z-40"
             >
-              <div className="lightmode p-4 ">
-                <ul className="flex flex-col items-center justify-center w-screen h-screen">
+              <div className="lightmode">
+                <ul className="flex flex-col items-center justify-center w-screen h-screen md:text-9xl text-6xl gap-7 md:gap-1 font-semibold md:font-normal">
                   <Link
                     href="#about"
-                    className={`lg:text-9xl text-3xl mt-5 h-auto ${playFair.className}`}
+                    className={`mt-5 h-auto ${playFair.className}`}
                   >
                     <motion.li
                       whileHover={{ scale: 1.2 }}
@@ -89,7 +89,7 @@ const Header = () => {
                   </Link>
                   <Link
                     href="#project"
-                    className={`lg:text-9xl text-3xl mt-5 h-auto ${playFair.className}`}
+                    className={`mt-5 h-auto ${playFair.className}`}
                   >
                     <motion.li
                       whileHover={{ scale: 1.2 }}
@@ -101,7 +101,7 @@ const Header = () => {
                   </Link>
                   <Link
                     href="#skills"
-                    className={`lg:text-9xl text-3xl mt-5 h-auto ${playFair.className}`}
+                    className={`mt-5 h-auto ${playFair.className}`}
                   >
                     <motion.li
                       whileHover={{ scale: 1.2 }}
@@ -113,7 +113,7 @@ const Header = () => {
                   </Link>
                   <Link
                     href="#contact"
-                    className={`lg:text-9xl text-3xl mt-5 h-auto hover:${montSerrat.className} ${playFair.className}`}
+                    className={`mt-5 h-auto hover:${montSerrat.className} ${playFair.className}`}
                   >
                     <motion.li
                       whileHover={{ scale: 1.2 }}

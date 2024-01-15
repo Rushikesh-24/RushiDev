@@ -14,10 +14,10 @@ const montSerrat = Montserrat({
 });
 const Hero = () => {
   return (
-    <div className="z-10 text-center flex-col md:justify-start items-center p-10 flex relative overflow-hidden justify-center h-screen mb-10">
+    <div className="z-10 text-center flex-col md:justify-start items-center p-10 flex relative overflow-hidden justify-center h-screen mb-10 ">
       <div
         id="hero-title"
-        className=" flex flex-col justify-center items-center md:mt-5 mb-5 relative -mt-80"
+        className=" flex flex-col justify-center items-center md:mt-5 mb-5 relative -mt-64"
       >
         <div
           className={`overflow-hidden relative md:text-sm text-xs md:mb-2 mb-5 ${montSerrat.className}`}
@@ -31,7 +31,7 @@ const Hero = () => {
           </motion.p>
         </div>
         <motion.div
-          className={`z-10 items-center font-normal md:text-9xl text-4xl mb-5 ${montSerrat.className}`}
+          className={`z-10 items-center font-normal md:text-9xl text-5xl mb-5 ${montSerrat.className}`}
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 2 }}
@@ -39,7 +39,7 @@ const Hero = () => {
           ENGINEERING
         </motion.div>
         <motion.div
-          className={`z-10 items-center font-normal md:text-9xl text-4xl mb-5 ${montSerrat.className}`}
+          className={`z-10 items-center font-normal md:text-9xl text-5xl mb-5 ${montSerrat.className}`}
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 2.2 }}

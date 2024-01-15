@@ -16,13 +16,13 @@ const About = () => {
 
   return (
     <div
-      className=" flex justify-center items-center md:mb-96 flex-col mt-10 mb-10 h-screen"
+      className=" flex justify-center items-center md:mb-96 flex-col md:mt-10 mb-10 h-screen -mt-28"
       id="about"
     >
       <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
       whileInView={{scale:1,rotate:0}}
       initial={{scale:0,rotate:180}}
-      transition={{delay:0.3,ease:'easeInOut',duration:1}}
+      transition={{delay:0.2,ease:'easeInOut',duration:0.3}}
       
       >
         About
@@ -30,7 +30,7 @@ const About = () => {
       <motion.p
         className={`w-3/5 text-center md:text-xl ${montSerrat.className} text-xs`}
         whileHover={{ scale: 1.2 }}
-        transition={{ delay: 0.3,ease:'easeInOut', stiffness: 400, damping: 10,duration:1 }}
+        transition={{ delay: 0.2,ease:'easeInOut', stiffness: 400, damping: 10,duration:0.6 }}
         initial={{opacity:0,scale:0.8}}
         whileInView={{opacity:1,scale:1}}
       >

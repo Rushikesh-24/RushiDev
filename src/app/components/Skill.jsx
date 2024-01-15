@@ -18,8 +18,8 @@ const playFair = Dancing_Script({
 const Skill = () => {
   return (
     <>
-      <div className="flex justify-center items-center" id="skills">
-      <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
+      <div className="flex justify-center items-center md:mt-0 mt-28" id="skills">
+      <motion.h1 className={`${playFair.className} md:text-9xl text-5xl md:mb-20 mb-10`}
       whileInView={{scale:1,rotate:0}}
       initial={{scale:0,rotate:180}}
       transition={{delay:0.3,ease:'easeInOut',duration:1}}
@@ -28,7 +28,7 @@ const Skill = () => {
         Skills
       </motion.h1>
       </div>
-      <div className="flex justify-center items-center md:gap-10 flex-wrap gap-4 mb-10">
+      <div className="flex justify-center items-center md:gap-10 flex-wrap gap-4 md:mb-10 mb-32">
         <motion.div
           whileHover={{ scale: 1.3, opacity: 0.8 }}
           transition={{ delay: 0.2,duration:0.5 }}
