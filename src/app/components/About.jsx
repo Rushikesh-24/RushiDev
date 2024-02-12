@@ -29,7 +29,6 @@ const About = () => {
       </motion.h1>
       <motion.p
         className={`w-3/5 text-center md:text-xl ${montSerrat.className} text-xs`}
-        whileHover={{ scale: 1.2 }}
         transition={{ delay: 0.2,ease:'easeInOut', stiffness: 400, damping: 10,duration:0.6 }}
         initial={{opacity:0,scale:0.8}}
         whileInView={{opacity:1,scale:1}}

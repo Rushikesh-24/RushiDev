@@ -39,7 +39,6 @@ const Project = () => {
         <motion.div
           id="SeniorSphere"
           className="project-container md:flex-row hover:gap-0"
-          whileHover={{ scale: 1.1 }}
           transition={{ delay: 0.3,duration:0.5 }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -90,7 +89,6 @@ const Project = () => {
         <motion.div
           id="utopiaStore"
           className="project-container md:flex-row-reverse hover:gap-0 mt-10"
-          whileHover={{ scale: 1.1 }}
           transition={{ delay: 0.3,duration:0.5 }}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
