@@ -25,14 +25,14 @@ html{
     font-size: 13px;
     line-height: 13;
     pointer-events: none;
-  }
-  .lightmode{
+}
+.lightmode{
     background-color: #e9dfce;
     color: #1f2125;
-  }
-  .header{
+}
+.header{
     cursor: none;
-  }
+}
 .project-container{
   display: flex;
   justify-content: space-evenly;

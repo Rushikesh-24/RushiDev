@@ -1,6 +1,7 @@
 import React from "react";
 import { Montserrat, Dancing_Script } from "next/font/google";
 import { motion } from "framer-motion";
+import { TextRevealCard } from "./TextReveal";
 
 const montSerrat = Montserrat({
   weight: ["400", "300"],
@@ -16,14 +17,18 @@ const playFair = Dancing_Script({
 const Contact = () => {
   return (
     <>
-      <div id="contact" className="text-center p-2 h-screen justify-center md:mt-0 mt-28">
-      <motion.h1 className={`${playFair.className} md:text-9xl text-5xl mb-20`}
-      whileInView={{scale:1,rotate:0}}
-      initial={{scale:0,rotate:180}}
-      transition={{delay:0.3,ease:'easeInOut',duration:1}}
+      <div
+        id="contact"
+        className="text-center p-2 h-screen justify-center md:mt-0 mt-28"
       >
-        Contact
-      </motion.h1>
+        <motion.h1
+          className={`${playFair.className} md:text-9xl text-5xl mb-20`}
+          whileInView={{ scale: 1, rotate: 0 }}
+          initial={{ scale: 0, rotate: 180 }}
+          transition={{ delay: 0.3, ease: "easeInOut", duration: 1 }}
+        >
+          Contact
+        </motion.h1>
         <p>Have questions or feedback? Get in touch with me!</p>
         <form
           action="https://formspree.io/f/mrgwwqre"
@@ -64,6 +69,10 @@ const Contact = () => {
           </motion.button>
         </form>
       </div>
+      <TextRevealCard
+        text="You know the business"
+        revealText="I know the chemistry "
+      />
     </>
   );
 };

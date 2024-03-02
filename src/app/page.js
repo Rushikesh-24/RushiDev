@@ -21,6 +21,7 @@ export default function Home() {
       <Skill/>
       <Rotation/>
       <Contact/>
+     
       <MovingText text3="FEEL FREE TO CONTACT ME ✦ "/>
       <Footer/>
     </div>
